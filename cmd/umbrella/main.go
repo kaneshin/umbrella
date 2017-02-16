@@ -9,9 +9,7 @@ import (
 	"path/filepath"
 )
 
-var (
-	dir = flag.String("path", "", "")
-)
+var dir = flag.String("path", "", "")
 
 func abs(name string) (string, error) {
 	if name == "" {
